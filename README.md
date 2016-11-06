@@ -414,6 +414,7 @@ namespace thruthTable
     }
 }
 ```
+```
 6. Exclusive OR
 ```
 ```
