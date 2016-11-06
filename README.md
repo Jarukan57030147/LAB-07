@@ -276,6 +276,7 @@ namespace thruthTable
 ```
 1. AND
 ```
+```
 using System;
 namespace thruthTable
 {
