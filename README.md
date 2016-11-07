@@ -190,6 +190,36 @@ namespace RandomNumber
 
 1. ให้พิมพ์ค่าตัวแปร boolean ในข้อ 3 ออกทางหน้าจอ
 
+```
+using System;
+namespace RandomNumber
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            Random random = new Random();
+            int randomNumber = random.Next(0, 9);
+            Console.WriteLine("randomNumber is: " + randomNumber );
+            try
+            {
+                Console.Write("Enter Number 0-9 : ");
+                int randomNumber1 = Convert.ToInt32(Console.ReadLine());
+                bool c = randomNumber1 < randomNumber;
+                Console.WriteLine("Boolean Operators");
+                Console.WriteLine("     {0} < {1}", randomNumber1, randomNumber);
+                Console.WriteLine("     {0}", c);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error : " + e.ToString());
+            }
+        }
+    }
+}
+```
+![](https://github.com/Jarukan57030147/LAB-06/blob/master/imgs/Capture7.PNG?raw=true)
 
 ##การเขียนโปรแกรมด้วยตัวดำเนินการทางตรรกะ
 
