@@ -219,7 +219,7 @@ namespace RandomNumber
     }
 }
 ```
-![](https://github.com/Jarukan57030147/LAB-06/blob/master/imgs/Capture7.PNG?raw=true)
+![](https://github.com/Jarukan57030147/LAB-07/blob/master/Capture7.PNG?raw=true)
 
 ##การเขียนโปรแกรมด้วยตัวดำเนินการทางตรรกะ
 
@@ -576,7 +576,7 @@ public class intergerTest
     }
 }
 ```
-![](https://github.com/Jarukan57030147/LAB-04/blob/master/imgs/Capture8.PNG?raw=true)
+![](https://github.com/Jarukan57030147/LAB-07/blob/master/Capture8.PNG?raw=true)
 
 ##2.2.3. ชนิดข้อมูลเลขทศนิยม (Floating Point and Decimal Types)
 ตัวเลขจำนวนทศนิยม มักจะใช้ในการคำนวณทางวิทยาศาสตร์ เนื่องจากค่าในวิทยาศาสตร์ต้องการความละเอียดสูง หรือมีค่าสูงมากกว่าที่เลขจำนวนเต็มจะเก็บได้
