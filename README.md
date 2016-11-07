@@ -515,6 +515,69 @@ public class intergerTest
 9.	y%8
 10.	100*x+y%2-a
 ```
+```
+using System;
+public class intergerTest
+{
+    static void Main(string[] args)
+    {
+        float  a = 10, b = 20, x = 5, y = 2,result;
+        result= a + b;
+        Console.WriteLine("a = 10 , b = 20 , X = 5 , y = 2" );
+        Console.WriteLine(" ");
+        Console.Write(" a + b ");
+        Console.Write(" = {1} + {2} = {0}",result, a, b);
+        Console.WriteLine(" ");
+        result = x - b;
+        Console.WriteLine(" ");
+        Console.Write(" x - b ");
+        Console.Write(" = {1} - {2} = {0}", result, x, b);
+        Console.WriteLine(" ");
+        result = x * b;
+        Console.WriteLine(" ");
+        Console.Write(" x * b ");
+        Console.Write(" = {1} * {2} = {0}", result, x, b);
+        Console.WriteLine(" ");
+        result = y / a;
+        Console.WriteLine(" ");
+        Console.Write(" y / a ");
+        Console.Write(" = {1} / {2} = {0}", result, y, a);
+        Console.WriteLine(" ");
+        result = b % y ;
+        Console.WriteLine(" ");
+        Console.Write(" b % y ");
+        Console.Write(" = {1} % {2} = {0}", result, b, y);
+        Console.WriteLine(" ");
+        result = y + 10 % x ;
+        Console.WriteLine(" ");
+        Console.Write(" y + 10 % x ");
+        Console.Write(" = {1} + 10 % {2} = {0}", result, y,x);
+        Console.WriteLine(" ");
+        result = a / 3 * 5;
+        Console.WriteLine(" ");
+        Console.Write(" a / 3 * 5 ");
+        Console.Write(" = {1} / 3 * 5 = {0}", result, a);
+        Console.WriteLine(" ");
+        result = 9 / 2 * a;
+        Console.WriteLine(" ");
+        Console.Write(" 9/2 *a ");
+        Console.Write(" = 9/2 * {1} = {0}", result, a) ;
+        Console.WriteLine(" ");
+        result = y % 8;
+        Console.WriteLine(" ");
+        Console.Write(" y % 8 ");
+        Console.Write(" = {1} % 8= {0}", result, y);
+        Console.WriteLine(" ");
+        result = 100 * x + y % 2 - a;
+        Console.WriteLine(" ");
+        Console.Write("100 * x + y %2 - a ");
+        Console.Write(" = 100 * {1} + {2} %2 - a = {0}",result, x, y, a);
+        Console.WriteLine(" ");
+    }
+}
+```
+![](https://github.com/Jarukan57030147/LAB-04/blob/master/imgs/Capture8.PNG?raw=true)
+
 ##2.2.3. ชนิดข้อมูลเลขทศนิยม (Floating Point and Decimal Types)
 ตัวเลขจำนวนทศนิยม มักจะใช้ในการคำนวณทางวิทยาศาสตร์ เนื่องจากค่าในวิทยาศาสตร์ต้องการความละเอียดสูง หรือมีค่าสูงมากกว่าที่เลขจำนวนเต็มจะเก็บได้
 
