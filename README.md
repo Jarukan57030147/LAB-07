@@ -779,7 +779,50 @@ public class MathTest
 ```
 ![](https://github.com/Jarukan57030147/LAB-07/blob/master/Capture.PNG?raw=true)
 
+```
 2.	y = cos(x)
+```
+```
+using System;
+public class MathTest
+{
+    static void Main(string[] args)
+    {
+        for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
+        {
+            Console.WriteLine("The cos of {0,10:F} = {1,-10:F6}" + spaces(Math.Cos(i)) + "*", i, Math.Cos(i));
+        }
+    }
+    private static string spaces(double val)
+    {
+        string SpaceString = new String(' ', ((int)(val * 10.0)) + 10);
+        return SpaceString;
+    }
+}
+```
+![](https://github.com/Jarukan57030147/LAB-07/blob/master/Capture1.PNG?raw=true)
+
+```
 3.	y = tan(x)
 ```
+```
+using System;
+public class MathTest
+{
+    static void Main(string[] args)
+    {
+        for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
+        {
+            Console.WriteLine("The tan of {0,10:F} = {1,-10:F6}" + spaces(Math.Tan(i)) + "*", i, Math.Tan(i));
+        }
+
+    }
+    private static string spaces(double val)
+    {
+        string SpaceString = new String(' ', (int)val + 100 );
+        return SpaceString;
+    }
+}
+```
+![](https://github.com/Jarukan57030147/LAB-07/blob/master/Capture2.PNG?raw=true)
 	
